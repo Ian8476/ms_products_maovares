@@ -63,7 +63,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'ms-products-maovares'
+          app-name: 'ms-products-ian'
           slot-name: 'Production'
           package: '*.jar'
           
